@@ -1,0 +1,4238 @@
+{
+    "$schema": "./MFL_CVE_Schema.json",
+    "action_defaults": [
+        {
+            "detection_context": "qualys_infra_vuln_scan",
+            "action": "report"
+        },
+        {
+            "detection_context": "deployment_pipeline",
+            "action": "block"
+        }
+    ],
+    "must_fix_list": [
+        {
+            "mfl_id": 1,
+            "identifier": "CVE-2017-9805",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-9805.md",
+            "affected_components": [
+                {
+                    "gte": "cpe:2.3:a:apache:struts:2.1.2:*:*:*:*:*:*:*",
+                    "lte": "cpe:2.3:a:apache:struts:2.5.12:*:*:*:*:*:*:*",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "rating": "High",
+                    "cpe_reverse_lookup": true
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 2,
+            "identifier": "CVE-2017-8620",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-8620.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 3,
+            "identifier": "CVE-2017-8543",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-8543.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 4,
+            "identifier": "CVE-2017-0143",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-0143.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 5,
+            "identifier": "CVE-2017-0144",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-0144.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 6,
+            "identifier": "CVE-2017-0145",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-0145.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 7,
+            "identifier": "CVE-2017-0146",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-0146.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 8,
+            "identifier": "CVE-2017-0148",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-0148.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 9,
+            "identifier": "CVE-2014-6324",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2014-6324.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_windows_dc"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 10,
+            "identifier": "CVE-2017-0176",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-0176.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 11,
+            "identifier": "CVE-2017-9073",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-9073.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 12,
+            "identifier": "CVE-2001-0797",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2001-0797.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 13,
+            "identifier": "CVE-2001-0803",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2001-0803.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 14,
+            "identifier": "CVE-2003-0201",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2003-0201.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 15,
+            "identifier": "CVE-2002-0033",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2002-0033.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 16,
+            "identifier": "CVE-2004-1315",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2004-1315.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 17,
+            "identifier": "CVE-2005-2086",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2005-2086.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 18,
+            "identifier": "CVE-2005-1921",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2005-1921.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 19,
+            "identifier": "CVE-2000-0666",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2000-0666.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 20,
+            "identifier": "CVE-2017-7269",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-7269.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 21,
+            "identifier": "CVE-2017-5638",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-5638.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                },
+                {
+                    "gte": "cpe:2.3:a:apache:struts:2.3.5:*:*:*:*:*:*:*",
+                    "lte": "cpe:2.3:a:apache:struts:2.3.31:*:*:*:*:*:*:*",
+                    "rating": "High",
+                    "cpe_reverse_lookup": true
+                },
+                {
+                    "gte": "cpe:2.3:a:apache:struts:2.5:*:*:*:*:*:*:*",
+                    "lte": "cpe:2.3:a:apache:struts:2.5.10:*:*:*:*:*:*:*",
+                    "rating": "High",
+                    "cpe_reverse_lookup": true
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 22,
+            "identifier": "CVE-2008-4250",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2008-4250.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 23,
+            "identifier": "CVE-2015-4852",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2015-4852.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 24,
+            "identifier": "CVE-2015-1635",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2015-1635.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 25,
+            "identifier": "CVE-2014-7169",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2014-7169.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                },
+                {
+                    "rating": "High",
+                    "gte": "cpe:2.3:a:gnu:bash:1.14.0:*:*:*:*:*:*:*",
+                    "lte": "cpe:2.3:a:gnu:bash:4.3:*:*:*:*:*:*:*",
+                    "cpe_reverse_lookup": true
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 26,
+            "identifier": "CVE-2014-6271",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2014-6271.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                },
+                {
+                    "rating": "High",
+                    "gte": "cpe:2.3:a:gnu:bash:1.14.0:*:*:*:*:*:*:*",
+                    "lte": "cpe:2.3:a:gnu:bash:4.3:*:*:*:*:*:*:*",
+                    "cpe_reverse_lookup": true
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 27,
+            "identifier": "CVE-2014-0160",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2014-0160.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                },
+                {
+                    "rating": "High",
+                    "eq": [
+                        "cpe:2.3:a:openssl:openssl:1.0.1:*:*:*:*:*:*:*",
+                        "cpe:2.3:a:openssl:openssl:1.0.1:beta1:*:*:*:*:*:*",
+                        "cpe:2.3:a:openssl:openssl:1.0.1:beta2:*:*:*:*:*:*",
+                        "cpe:2.3:a:openssl:openssl:1.0.1:beta3:*:*:*:*:*:*",
+                        "cpe:2.3:a:openssl:openssl:1.0.1a:*:*:*:*:*:*:*",
+                        "cpe:2.3:a:openssl:openssl:1.0.1b:*:*:*:*:*:*:*",
+                        "cpe:2.3:a:openssl:openssl:1.0.1c:*:*:*:*:*:*:*",
+                        "cpe:2.3:a:openssl:openssl:1.0.1d:*:*:*:*:*:*:*",
+                        "cpe:2.3:a:openssl:openssl:1.0.1e:*:*:*:*:*:*:*",
+                        "cpe:2.3:a:openssl:openssl:1.0.1f:*:*:*:*:*:*:*"
+                    ],
+                    "cpe_reverse_lookup": true
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 28,
+            "identifier": "CVE-2017-12542",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-12542.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                },
+                {
+                    "rating": "High",
+                    "eq": [
+                        "cpe:2.3:o:hp:integrated_lights-out_4_firmware:1.11:*:*:*:*:*:*:*",
+                        "cpe:2.3:o:hp:integrated_lights-out_4_firmware:1.13:*:*:*:*:*:*:*",
+                        "cpe:2.3:o:hp:integrated_lights-out_4_firmware:1.20:*:*:*:*:*:*:*",
+                        "cpe:2.3:o:hp:integrated_lights-out_4_firmware:2.01:*:*:*:*:*:*:*",
+                        "cpe:2.3:o:hp:integrated_lights-out_4_firmware:2.03:*:*:*:*:*:*:*"
+                    ],
+                    "cpe_reverse_lookup": true
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 29,
+            "identifier": "CVE-2018-8581",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-8581.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 30,
+            "identifier": "CVE-2018-11776",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-11776.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                },
+                {
+                    "rating": "High",
+                    "gte": "cpe:2.3:a:apache:struts:2.3.1:*:*:*:*:*:*:*",
+                    "lte": "cpe:2.3:a:apache:struts:2.3.34:*:*:*:*:*:*:*",
+                    "cpe_reverse_lookup": true
+                },
+                {
+                    "rating": "High",
+                    "gte": "cpe:2.3:a:apache:struts:2.5.0:*:*:*:*:*:*:*",
+                    "lte": "cpe:2.3:a:apache:struts:2.5.16:*:*:*:*:*:*:*",
+                    "cpe_reverse_lookup": true
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 31,
+            "identifier": "CVE-2019-0708",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-0708.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 32,
+            "identifier": "CVE-2019-1181",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-1181.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 33,
+            "identifier": "CVE-2019-1182",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-1182.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 34,
+            "identifier": "CVE-2019-19781",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-19781.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 35,
+            "identifier": "CVE-2019-11510",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-11510.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 36,
+            "identifier": "CVE-2020-0796",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-0796.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 37,
+            "identifier": "CVE-2019-0604",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-0604.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 38,
+            "identifier": "CVE-2020-5902",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-5902.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 39,
+            "identifier": "CVE-2020-1350",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-1350.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_windows_dc"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 40,
+            "identifier": "CVE-2013-4786",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2013-4786.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 41,
+            "identifier": "CVE-2020-0688",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-0688.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 42,
+            "identifier": "CVE-2020-1472",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-1472.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_windows_dc"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 43,
+            "identifier": "CVE-2020-14882",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-14882.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 44,
+            "identifier": "CVE-2020-14750",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-14750.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 45,
+            "identifier": "CVE-2020-14871",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-14871.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 46,
+            "identifier": "CVE-2015-7450",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2015-7450.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 47,
+            "identifier": "CVE-2015-7501",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2015-7501.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 113,
+            "identifier": "CVE-2021-21972",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-21972.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-03-03"
+        },
+        {
+            "mfl_id": 114,
+            "identifier": "CVE-2021-26855",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-26855.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-03-03"
+        },
+        {
+            "mfl_id": 115,
+            "identifier": "CVE-2021-26857",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-26857.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-03-03"
+        },
+        {
+            "mfl_id": 116,
+            "identifier": "CVE-2021-26858",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-26858.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-03-03"
+        },
+        {
+            "mfl_id": 117,
+            "identifier": "CVE-2021-27065",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-27065.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-03-03"
+        },
+        {
+            "mfl_id": 118,
+            "identifier": "CVE-2021-22986",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-22986.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-03-22"
+        },
+        {
+            "mfl_id": 119,
+            "identifier": "CVE-2018-7600",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-7600.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-03-22"
+        },
+        {
+            "mfl_id": 120,
+            "identifier": "CVE-2017-10271",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-10271.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-03-22"
+        },
+        {
+            "mfl_id": 121,
+            "identifier": "CVE-2021-28480",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-28480.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-04-14"
+        },
+        {
+            "mfl_id": 122,
+            "identifier": "CVE-2021-28481",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-28481.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-04-14"
+        },
+        {
+            "mfl_id": 123,
+            "identifier": "CVE-2021-25274",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-25274.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-05-14"
+        },
+        {
+            "mfl_id": 124,
+            "identifier": "CVE-2019-5736",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-5736.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 125,
+            "identifier": "CVE-2020-12265",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-12265.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 126,
+            "identifier": "CVE-2020-26217",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-26217.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 127,
+            "identifier": "CVE-2020-1747",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-1747.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 128,
+            "identifier": "CVE-2016-9299",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2016-9299.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 129,
+            "identifier": "CVE-2019-1937",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-1937.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 130,
+            "identifier": "CVE-2019-1821",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-1821.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 131,
+            "identifier": "CVE-2015-5082",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2015-5082.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 132,
+            "identifier": "CVE-2017-6326",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-6326.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 133,
+            "identifier": "CVE-2020-5847",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-5847.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 134,
+            "identifier": "CVE-2018-6329",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-6329.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 135,
+            "identifier": "CVE-2017-7494",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-7494.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 136,
+            "identifier": "CVE-2015-0235",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2015-0235.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 137,
+            "identifier": "CVE-2019-1935",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-1935.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 138,
+            "identifier": "CVE-2016-1560",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2016-1560.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 139,
+            "identifier": "CVE-2020-4429",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-4429.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 140,
+            "identifier": "CVE-2017-7722",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-7722.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 141,
+            "identifier": "CVE-2016-7456",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2016-7456.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 142,
+            "identifier": "CVE-2014-7205",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2014-7205.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "1970-01-01"
+        },
+        {
+            "mfl_id": 143,
+            "identifier": "CVE-2019-3396",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-3396.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 144,
+            "identifier": "CVE-2017-1092",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-1092.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 145,
+            "identifier": "CVE-2016-7552",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2016-7552.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 146,
+            "identifier": "CVE-2015-0779",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2015-0779.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 147,
+            "identifier": "CVE-2015-7709",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2015-7709.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 148,
+            "identifier": "CVE-2019-4716",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-4716.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 149,
+            "identifier": "CVE-2015-3306",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2015-3306.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 150,
+            "identifier": "CVE-2020-7247",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-7247.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 151,
+            "identifier": "CVE-2018-7890",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-7890.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 152,
+            "identifier": "CVE-2015-8249",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2015-8249.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 153,
+            "identifier": "CVE-2020-0646",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-0646.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 154,
+            "identifier": "CVE-2015-2284",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2015-2284.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 155,
+            "identifier": "CVE-2019-4279",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-4279.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 156,
+            "identifier": "CVE-2017-5816",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-5816.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 157,
+            "identifier": "CVE-2017-5817",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-5817.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 158,
+            "identifier": "CVE-2020-8010",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-8010.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-06-16"
+        },
+        {
+            "mfl_id": 159,
+            "identifier": "CVE-2021-35464",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-35464.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-07-01"
+        },
+        {
+            "mfl_id": 160,
+            "identifier": "CVE-2021-34527",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-34527.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "2021-07-02"
+        },
+        {
+            "mfl_id": 161,
+            "identifier": "CVE-2021-22893",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-22893.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-09-21"
+        },
+        {
+            "mfl_id": 162,
+            "identifier": "CVE-2021-34473",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-34473.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-09-21"
+        },
+        {
+            "mfl_id": 163,
+            "identifier": "CVE-2021-31166",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-31166.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-09-21"
+        },
+        {
+            "mfl_id": 164,
+            "identifier": "CVE-2021-21985",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-21985.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-09-21"
+        },
+        {
+            "mfl_id": 165,
+            "identifier": "CVE-2021-26084",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-26084.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-09-21"
+        },
+        {
+            "mfl_id": 166,
+            "identifier": "CVE-2021-22005",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-22005.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-09-22"
+        },
+        {
+            "mfl_id": 167,
+            "identifier": "CVE-2021-42013",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-42013.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2021-10-08"
+        },
+        {
+            "mfl_id": 168,
+            "identifier": [
+                "sonatype-2021-1529",
+                "GHSA-pjwm-rvh2-c87w"
+            ],
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/sonatype-2021-1529.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                },
+                {
+                    "rating": "High",
+                    "eq": [
+                        "cpe:2.3:a:ua-parser-js_project:ua-parser-js:0.7.29:*:*:*:*:node.js:*:*",
+                        "cpe:2.3:a:ua-parser-js_project:ua-parser-js:0.8.0:*:*:*:*:node.js:*:*",
+                        "cpe:2.3:a:ua-parser-js_project:ua-parser-js:1.0.0:*:*:*:*:node.js:*:*"
+                    ],
+                    "cpe_reverse_lookup": true
+                }
+            ],
+            "date_added": "2021-10-27"
+        },
+        {
+            "mfl_id": 169,
+            "identifier": [
+                "CWE-506",
+                "CWE-507",
+                "CWE-510",
+                "CWE-511",
+                "CWE-512"
+            ],
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CWE-506.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "2021-11-10"
+        },
+        {
+            "mfl_id": 170,
+            "identifier": "CVE-2021-22017",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-22017.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-01-14"
+        },
+        {
+            "mfl_id": 171,
+            "identifier": "CVE-2022-21907",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-21907.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-01-14"
+        },
+        {
+            "mfl_id": 172,
+            "identifier": "CVE-2021-44228",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-44228.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-03-10"
+        },
+        {
+            "mfl_id": 173,
+            "identifier": "QID-105383",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/QID-105383.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "2022-03-22"
+        },
+        {
+            "mfl_id": 174,
+            "identifier": "QID-105381",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/QID-105381.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "2022-03-22"
+        },
+        {
+            "mfl_id": 175,
+            "identifier": [
+                "QID-150494",
+                "QID-376508",
+                "QID-730418"
+            ],
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-22963.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-03-31"
+        },
+        {
+            "mfl_id": 176,
+            "identifier": [
+                "QID-376506",
+                "QID-150495"
+            ],
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-22965.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-03-31"
+        },
+        {
+            "mfl_id": 177,
+            "identifier": "CVE-2022-22954",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-22954.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-04-25"
+        },
+        {
+            "mfl_id": 178,
+            "identifier": "CVE-2022-26134",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-26134.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-06-06"
+        },
+        {
+            "mfl_id": 179,
+            "identifier": "CVE-2018-0101",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-0101.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-06-30"
+        },
+        {
+            "mfl_id": 180,
+            "identifier": "CVE-2018-2628",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-2628.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-06-30"
+        },
+        {
+            "mfl_id": 181,
+            "identifier": "CVE-2018-2894",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-2894.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-06-30"
+        },
+        {
+            "mfl_id": 182,
+            "identifier": "CVE-2019-2725",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-2725.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-06-30"
+        },
+        {
+            "mfl_id": 183,
+            "identifier": "CVE-2019-2729",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-2729.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-06-30"
+        },
+        {
+            "mfl_id": 184,
+            "identifier": "CVE-2020-11651",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-11651.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-06-30"
+        },
+        {
+            "mfl_id": 185,
+            "identifier": "CVE-2020-2555",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-2555.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-06-30"
+        },
+        {
+            "mfl_id": 186,
+            "identifier": "CVE-2021-38647",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-38647.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-06-30"
+        },
+        {
+            "mfl_id": 187,
+            "identifier": "CVE-2022-34718",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-34718.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-09-20"
+        },
+        {
+            "mfl_id": 188,
+            "identifier": "CVE-2022-34721",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-34721.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-09-20"
+        },
+        {
+            "mfl_id": 189,
+            "identifier": "CVE-2022-1388",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-1388.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-10-07"
+        },
+        {
+            "mfl_id": 190,
+            "identifier": "CVE-2011-3556",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2011-3556.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-10-13"
+        },
+        {
+            "mfl_id": 191,
+            "identifier": "CVE-2022-40684",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-40684.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-10-14"
+        },
+        {
+            "mfl_id": 192,
+            "identifier": "CVE-2020-13927",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-13927.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 193,
+            "identifier": "CVE-2021-1497",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-1497.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 194,
+            "identifier": "CVE-2021-27101",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-27101.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 195,
+            "identifier": "CVE-2020-1956",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-1956.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 196,
+            "identifier": "CVE-2020-9054",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-9054.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 197,
+            "identifier": "CVE-2020-26919",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-26919.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 198,
+            "identifier": "CVE-2012-1823",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2012-1823.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 199,
+            "identifier": "CVE-2020-17496",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-17496.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 200,
+            "identifier": "CVE-2021-22502",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-22502.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 201,
+            "identifier": "CVE-2021-35394",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-35394.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 202,
+            "identifier": "CVE-2021-1498",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-1498.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 203,
+            "identifier": "CVE-2020-10148",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-10148.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 204,
+            "identifier": "CVE-2021-36260",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-36260.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 205,
+            "identifier": "CVE-2014-3704",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2014-3704.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 206,
+            "identifier": "CVE-2021-20016",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-20016.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 207,
+            "identifier": "CVE-2020-10189",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-10189.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 208,
+            "identifier": "CVE-2022-0543",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-0543.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 209,
+            "identifier": "CVE-2019-1579",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-1579.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 210,
+            "identifier": "CVE-2015-8562",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2015-8562.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 211,
+            "identifier": "CVE-2022-22947",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-22947.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 212,
+            "identifier": "CVE-2021-27104",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-27104.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 213,
+            "identifier": "CVE-2020-8515",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-8515.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 214,
+            "identifier": "CVE-2011-4862",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2011-4862.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 215,
+            "identifier": "CVE-2022-29464",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-29464.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 216,
+            "identifier": "CVE-2010-2729",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2010-2729.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 217,
+            "identifier": "CVE-2022-24086",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-24086.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 218,
+            "identifier": "CVE-2022-3236",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-3236.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 219,
+            "identifier": "CVE-2021-40539",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-40539.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 220,
+            "identifier": "CVE-2020-3992",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-3992.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 221,
+            "identifier": "CVE-2020-7115",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-7115.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 222,
+            "identifier": "CVE-2016-5674",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2016-5674.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 223,
+            "identifier": "CVE-2021-20038",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-20038.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 224,
+            "identifier": "CVE-2022-41352",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-41352.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 225,
+            "identifier": "CVE-2022-1040",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-1040.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 226,
+            "identifier": "CVE-2021-44077",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-44077.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 227,
+            "identifier": "CVE-2021-22205",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-22205.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 228,
+            "identifier": "CVE-2010-5326",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2010-5326.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 229,
+            "identifier": "CVE-2012-2311",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2012-2311.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 230,
+            "identifier": "CVE-2020-28188",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-28188.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 231,
+            "identifier": "CVE-2021-44515",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-44515.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-24"
+        },
+        {
+            "mfl_id": 232,
+            "identifier": "CVE-2020-16846",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-16846.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-25"
+        },
+        {
+            "mfl_id": 233,
+            "identifier": "CVE-2022-24706",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-24706.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-25"
+        },
+        {
+            "mfl_id": 234,
+            "identifier": "CVE-2022-35405",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-35405.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-25"
+        },
+        {
+            "mfl_id": 235,
+            "identifier": "CVE-2019-16759",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-16759.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-25"
+        },
+        {
+            "mfl_id": 236,
+            "identifier": "CVE-2019-10068",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-10068.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-29"
+        },
+        {
+            "mfl_id": 237,
+            "identifier": "CVE-2019-7238",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-7238.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-29"
+        },
+        {
+            "mfl_id": 238,
+            "identifier": "CVE-2021-35587",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-35587.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-11-30"
+        },
+        {
+            "mfl_id": 239,
+            "identifier": "CVE-2022-42475",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-42475.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-12-13"
+        },
+        {
+            "mfl_id": 240,
+            "identifier": "CVE-2022-28219",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-28219.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-12-16"
+        },
+        {
+            "mfl_id": 241,
+            "identifier": "CVE-2022-27518",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-27518.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-12-16"
+        },
+        {
+            "mfl_id": 242,
+            "identifier": "CVE-2018-0125",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-0125.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2022-12-21"
+        },
+        {
+            "mfl_id": 243,
+            "identifier": "CVE-2018-6530",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-6530.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-01-11"
+        },
+        {
+            "mfl_id": 244,
+            "identifier": "CVE-2021-44529",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-44529.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-01-26"
+        },
+        {
+            "mfl_id": 245,
+            "identifier": "CVE-2020-25213",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-25213.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-01-30"
+        },
+        {
+            "mfl_id": 246,
+            "identifier": "CVE-2022-21587",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-21587.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-02-07"
+        },
+        {
+            "mfl_id": 247,
+            "identifier": "CVE-2018-1273",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-1273.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-02-08"
+        },
+        {
+            "mfl_id": 248,
+            "identifier": "CVE-2021-21974",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-21974.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-02-09"
+        },
+        {
+            "mfl_id": 249,
+            "identifier": "CVE-2013-2165",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2013-2165.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-02-09"
+        },
+        {
+            "mfl_id": 250,
+            "identifier": "CVE-2021-27877",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-27877.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-02-09"
+        },
+        {
+            "mfl_id": 251,
+            "identifier": "CVE-2022-39952",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-39952.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-02-22"
+        },
+        {
+            "mfl_id": 252,
+            "identifier": "CVE-2017-7504",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-7504.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-02-27"
+        },
+        {
+            "mfl_id": 253,
+            "identifier": "CVE-2022-35914",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-35914.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-03-09"
+        },
+        {
+            "mfl_id": 254,
+            "identifier": "CVE-2021-39144",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-39144.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-03-13"
+        },
+        {
+            "mfl_id": 255,
+            "identifier": "CVE-2023-23397",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-23397.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "2023-03-16"
+        },
+        {
+            "mfl_id": 256,
+            "identifier": "CVE-2023-26360",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-26360.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-03-17"
+        },
+        {
+            "mfl_id": 257,
+            "identifier": "CVE-2023-29059",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-29059.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal",
+                        "client"
+                    ]
+                }
+            ],
+            "date_added": "2023-04-06"
+        },
+        {
+            "mfl_id": 258,
+            "identifier": "CVE-2023-29492",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-29492.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-04-19"
+        },
+        {
+            "mfl_id": 259,
+            "identifier": "CVE-2010-1871",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2010-1871.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-04-20"
+        },
+        {
+            "mfl_id": 260,
+            "identifier": "CVE-2022-30525",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-30525.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-04-24"
+        },
+        {
+            "mfl_id": 261,
+            "identifier": "CVE-2022-46169",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-46169.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-04-24"
+        },
+        {
+            "mfl_id": 262,
+            "identifier": "CVE-2022-44877",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-44877.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-04-24"
+        },
+        {
+            "mfl_id": 263,
+            "identifier": "CVE-2022-31814",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-31814.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-04-24"
+        },
+        {
+            "mfl_id": 264,
+            "identifier": "CVE-2018-14839",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-14839.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-04-24"
+        },
+        {
+            "mfl_id": 265,
+            "identifier": "CVE-2022-47966",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-47966.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-04-24"
+        },
+        {
+            "mfl_id": 266,
+            "identifier": "CVE-2023-27350",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-27350.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-04-24"
+        },
+        {
+            "mfl_id": 267,
+            "identifier": "CVE-2023-21554",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-21554.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-04-28"
+        },
+        {
+            "mfl_id": 268,
+            "identifier": "CVE-2023-21839",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-21839.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-02"
+        },
+        {
+            "mfl_id": 269,
+            "identifier": "CVE-2006-3252",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2006-3252.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-02"
+        },
+        {
+            "mfl_id": 270,
+            "identifier": "CVE-2019-1663",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-1663.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 271,
+            "identifier": "CVE-2021-32305",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-32305.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 272,
+            "identifier": "CVE-2021-21307",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-21307.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 273,
+            "identifier": "CVE-2020-17506",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-17506.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 274,
+            "identifier": "CVE-2020-3243",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-3243.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 275,
+            "identifier": "CVE-2021-30461",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-30461.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 276,
+            "identifier": "CVE-2019-12986",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-12986.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 277,
+            "identifier": "CVE-2019-12990",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-12990.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 278,
+            "identifier": "CVE-2020-14825",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-14825.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 279,
+            "identifier": "CVE-2020-35729",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-35729.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 280,
+            "identifier": "CVE-2019-5420",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-5420.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 281,
+            "identifier": "CVE-2020-2883",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-2883.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 282,
+            "identifier": "CVE-2019-12985",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-12985.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 283,
+            "identifier": "CVE-2021-45232",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-45232.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 284,
+            "identifier": "CVE-2019-16278",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-16278.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 285,
+            "identifier": "CVE-2019-16662",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-16662.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 286,
+            "identifier": "CVE-2017-12629",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2017-12629.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 287,
+            "identifier": "CVE-2018-2893",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-2893.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 288,
+            "identifier": "CVE-2019-12988",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-12988.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 289,
+            "identifier": "CVE-2020-11854",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-11854.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 290,
+            "identifier": "CVE-2020-2551",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-2551.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 291,
+            "identifier": "CVE-2019-12987",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-12987.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-03"
+        },
+        {
+            "mfl_id": 292,
+            "identifier": "CVE-2022-36537",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-36537.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-09"
+        },
+        {
+            "mfl_id": 293,
+            "identifier": "CVE-2022-3982",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-3982.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-09"
+        },
+        {
+            "mfl_id": 294,
+            "identifier": "CVE-2019-15107",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-15107.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-10"
+        },
+        {
+            "mfl_id": 295,
+            "identifier": "CVE-2009-2265",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2009-2265.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-12"
+        },
+        {
+            "mfl_id": 296,
+            "identifier": "CVE-2020-25506",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-25506.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-12"
+        },
+        {
+            "mfl_id": 298,
+            "identifier": "CVE-2016-8735",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2016-8735.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-15"
+        },
+        {
+            "mfl_id": 299,
+            "identifier": "CVE-2007-2522",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2007-2522.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-18"
+        },
+        {
+            "mfl_id": 300,
+            "identifier": "CVE-2018-15961",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-15961.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-19"
+        },
+        {
+            "mfl_id": 301,
+            "identifier": "CVE-2022-20699",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-20699.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-19"
+        },
+        {
+            "mfl_id": 302,
+            "identifier": "CVE-2021-42237",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-42237.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-19"
+        },
+        {
+            "mfl_id": 303,
+            "identifier": "CVE-2012-0391",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2012-0391.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-19"
+        },
+        {
+            "mfl_id": 304,
+            "identifier": "CVE-2020-8644",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-8644.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-05-25"
+        },
+        {
+            "mfl_id": 305,
+            "identifier": "CVE-2023-28771",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-28771.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-06-01"
+        },
+        {
+            "mfl_id": 306,
+            "identifier": "CVE-2023-34362",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-34362.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-06-05"
+        },
+        {
+            "mfl_id": 307,
+            "identifier": "CVE-2022-1390",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-1390.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-06-06"
+        },
+        {
+            "mfl_id": 308,
+            "identifier": "CVE-2023-33009",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-33009.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-06-06"
+        },
+        {
+            "mfl_id": 309,
+            "identifier": "CVE-2022-21500",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-21500.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-06-06"
+        },
+        {
+            "mfl_id": 310,
+            "identifier": "CVE-2022-24990",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-24990.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-06-06"
+        },
+        {
+            "mfl_id": 311,
+            "identifier": "CVE-2021-46422",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-46422.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-06-06"
+        },
+        {
+            "mfl_id": 312,
+            "identifier": "CVE-2023-33010",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-33010.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-06-06"
+        },
+        {
+            "mfl_id": 313,
+            "identifier": "CVE-2022-21371",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-21371.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-06-06"
+        },
+        {
+            "mfl_id": 314,
+            "identifier": "CVE-2023-27997",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-27997.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-06-14"
+        },
+        {
+            "mfl_id": 315,
+            "identifier": "CVE-2021-40870",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-40870.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ]
+                }
+            ],
+            "date_added": "2023-06-16"
+        },
+        {
+            "mfl_id": 316,
+            "identifier": "CVE-2016-3427",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2016-3427.md",
+            "affected_components": [
+                {
+                    "action": "ignore",
+                    "detection_context": [
+                        "qualys_infra_vuln_scan"
+                    ],
+                    "description": "This CVE describes a flaw in a low-level software component. An infrastructure vulnerability scan cannot identify the deployment context, so we cannot be confidently assert an MFL Rating for this kind of test."
+                },
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "block",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-06-27"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-07-27"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-06-27"
+        },
+        {
+            "mfl_id": 317,
+            "identifier": "CVE-2022-33891",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-33891.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "block",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-06-27"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-07-27"
+                        }
+                    ]
+                },
+                {
+                    "detection_context": [
+                        "qualys_infra_vuln_scan"
+                    ],
+                    "action": "ignore",
+                    "description": "This CVE describes a flaw in a low-level software component. An infrastructure vulnerability scan cannot identify the deployment context, so we cannot be confidently assert an MFL Rating for this kind of test."
+                }
+            ],
+            "date_added": "2023-06-27"
+        },
+        {
+            "mfl_id": 318,
+            "identifier": "CVE-2022-36804",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-36804.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "block",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-06-30"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-07-30"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-06-30"
+        },
+        {
+            "mfl_id": 319,
+            "identifier": "CVE-2022-26352",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-26352.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "block",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-06-30"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-07-30"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-06-30"
+        },
+        {
+            "mfl_id": 320,
+            "identifier": "CVE-2022-35871",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-35871.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "block",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-06-30"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-07-30"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-06-30"
+        },
+        {
+            "mfl_id": 321,
+            "identifier": "CVE-2022-26138",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-26138.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "block",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-06-30"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-07-30"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-06-30"
+        },
+        {
+            "mfl_id": 322,
+            "identifier": "CVE-2023-27372",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-27372.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "block",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-06-30"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-07-30"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-06-30"
+        },
+        {
+            "mfl_id": 323,
+            "identifier": "CVE-2023-27992",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-27992.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "block",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-06-30"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-07-30"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-06-30"
+        },
+        {
+            "mfl_id": 324,
+            "identifier": "CVE-2021-22911",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2021-22911.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "block",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-06-30"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-07-30"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-06-30"
+        },
+        {
+            "mfl_id": 325,
+            "identifier": "CVE-2020-11853",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-11853.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "block",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-06-30"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-07-30"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-06-30"
+        },
+        {
+            "mfl_id": 326,
+            "identifier": "CVE-2019-16119",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2019-16119.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "block",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-06-30"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-07-30"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-06-30"
+        },
+        {
+            "mfl_id": 327,
+            "identifier": "CVE-2018-1160",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2018-1160.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "block",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-07-04"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-08-03"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-07-04"
+        },
+        {
+            "mfl_id": 328,
+            "identifier": "CVE-2020-29583",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-29583.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "block",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-07-04"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-08-03"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-07-04"
+        },
+        {
+            "mfl_id": 329,
+            "identifier": "CVE-2022-4328",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-4328.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "report",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-07-10"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-08-09"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-07-10"
+        },
+        {
+            "mfl_id": 330,
+            "identifier": "CVE-2020-35476",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2020-35476.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "report",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-07-10"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-08-09"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-07-10"
+        },
+        {
+            "mfl_id": 331,
+            "identifier": "CVE-2023-25717",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-25717.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "report",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-07-10"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-08-09"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-07-10"
+        },
+        {
+            "mfl_id": 332,
+            "identifier": "CVE-2023-33246",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-33246.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "report",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-07-10"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-08-09"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-07-10"
+        },
+        {
+            "mfl_id": 333,
+            "identifier": "CVE-2022-31199",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2022-31199.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "report",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-07-12"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-08-11"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-07-12"
+        },
+        {
+            "mfl_id": 334,
+            "identifier": "CVE-2023-3519",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-3519.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "report",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-07-19"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-08-18"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-07-19"
+        },
+        {
+            "mfl_id": 335,
+            "identifier": "CVE-2023-20887",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2023-20887.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "report",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-08-02"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-09-01"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-08-02"
+        },
+        {
+            "mfl_id": 336,
+            "identifier": "CVE-2015-1938",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2015-1938.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "report",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-08-04"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-09-03"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-08-04"
+        },
+        {
+            "mfl_id": 337,
+            "identifier": "CVE-2015-1949",
+            "metadata": "https://github.com/lbg-gcp-custom/must-fix-list/md/CVE-2015-1949.md",
+            "affected_components": [
+                {
+                    "rating": "High",
+                    "usage": [
+                        "server_internal"
+                    ],
+                    "action": "report",
+                    "detection_context": [
+                        "deployment_pipeline"
+                    ],
+                    "action_changes": [
+                        {
+                            "action": "report",
+                            "change_date": "2023-08-04"
+                        },
+                        {
+                            "action": "block",
+                            "change_date": "2023-09-03"
+                        }
+                    ]
+                }
+            ],
+            "date_added": "2023-08-04"
+        }
+    ]
+}
